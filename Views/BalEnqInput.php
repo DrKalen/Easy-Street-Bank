@@ -1,6 +1,15 @@
 <html>
- <! -- Balance Enquiry page -->
+  <!-- Balance Enquiry page -->
     <head>
+
+      <!--link to common cascading style sheets-->
+      <link rel="stylesheet" type="text/css" href="http://localhost:8888/easystreetbank/stylesheets/easy_street.css">
+
+        <div>
+            <h2 class="barone orange" >Easy Street Bank</h2>
+        </div>
+
+        <title>Easy Street Bank Balance Enquiry Page</title>
 
         <div>
            <ul class="menusubnav">
@@ -12,15 +21,6 @@
             <li><a href="Logout.php">Log Out</a></li>
            </ul>
         </div>
-
-    !--link to common cascading style sheets
-        <link rel="stylesheet" type="text/css" href="EasyStreetBank/Stylesheets/easy_street.css">
-
-        <div>
-            <h2 class="barone">Easy Street Bank</h2>
-        </div>
-
-        <title>Easy Street Bank Balance Enquiry Page</title>
 
     </head>
 

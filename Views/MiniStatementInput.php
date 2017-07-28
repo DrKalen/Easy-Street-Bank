@@ -1,14 +1,16 @@
 <html>
 
         <! -- Mini-Statement Input page -->
+
     <head>
+
+      <!--link to common cascading style sheets-->
+      <link rel="stylesheet" type="text/css" href="http://localhost:8888/easystreetbank/stylesheets/easy_street.css">
         <div>
-            <h2 class="barone">Easy Street Bank</h2>
+            <h2 class="barone orange">Easy Street Bank</h2>
             <title>Mini-Statement Page</title>
         </div>
-    </head>
 
-    <body>
         <div>
            <ul class="menusubnav">
             <li class="orange"><a href="CustomerHomePage.php">Customer Home Page</a></li>
@@ -19,6 +21,11 @@
             <li><a href="Logout.php">Log Out</a></li>
            </ul>
         </div>
+
+    </head>
+
+    <body>
+
 
         <table border="0" width="70%" align="center" class="layout1">
 

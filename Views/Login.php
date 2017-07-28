@@ -1,10 +1,16 @@
 <html>
 
         <! -- Login page -->
+
     <head>
+
+      <!--link to common cascading style sheets-->
+      <link rel="stylesheet" type="text/css" href="http://localhost:8888/easystreetbank/stylesheets/easy_street.css">
         <div>
-            <h2 class="barone">Easy Street Bank</h2>
+            <h2 class="barone orange">Easy Street Bank</h2>
+        </div>
             <title>Easy Street Bank Login</title>
+
     </head>
 
     <body>
