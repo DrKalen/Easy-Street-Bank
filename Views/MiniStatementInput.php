@@ -11,7 +11,7 @@
     <body>
         <div>
            <ul class="menusubnav">
-            <li class="orange"><a href="CustomerHomePage.php">Customer</a></li>
+            <li class="orange"><a href="CustomerHomePage.php">Customer Home Page</a></li>
             <li><a href="BalEnqInput.php">Balance Enquiry</a></li>
             <li><a href="CustomerFundTransfer.php">Fund Transfer</a></li>
             <li><a href="PasswordInput.php">Change Password</a></li>
@@ -27,10 +27,8 @@
                     <table align="center">
                         <tr>
                             <td>Account No</td>
-
                             <td><input type="text" name="accountno" maxlength="10" />
                             <label id="message2"></label></td>
-
                         </tr>
 
                         <tr>
