@@ -14,18 +14,9 @@
             <title>Mini-Statement Page</title>
         </div>
 
-        <div>
-           <ul class="menusubnav">
-            <li class="orange"><a href="CustomerHomePage.php">Customer Home Page</a></li>
-            <li><a href="BalEnqInput.php">Balance Enquiry</a></li>
-            <li><a href="CustomerFundTransfer.php">Fund Transfer</a></li>
-            <li><a href="PasswordInput.php">Change Password</a></li>
-            <li><a href="MiniStatementInput.php">Mini-Statement</a></li>
-            <li><a href="Logout.php">Log Out</a></li>
-           </ul>
-        </div>
-
     </head>
+
+    <div><?php include_once('Customer_sidebar.html') ?></div>
 
     <body>
 
