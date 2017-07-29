@@ -1,3 +1,12 @@
+<?php
+//starting the session for logged in customer
+session_start();
+include_once 'connection.php';
+if (isset($_SESSION['customer'])) {
+        $cid= $_SESSION['customer'];
+}
+?>
+
 <html>
   <!-- Balance Enquiry page -->
     <head>
@@ -5,29 +14,23 @@
       <!--link to common cascading style sheets-->
       <link rel="stylesheet" type="text/css" href="http://localhost:8888/easystreetbank/stylesheets/easy_street.css">
 
+      <!--link to JavaScript validation file-->
+      <script language="JavaScript" src="http://localhost:8888/easystreetbank/javascript/test.js"></script>
+
         <div>
             <h2 class="barone orange" >Easy Street Bank</h2>
         </div>
 
         <title>Easy Street Bank Balance Enquiry Page</title>
 
-        <div>
-           <ul class="menusubnav">
-            <li class="orange"><a href="CustomerHomePage.php">Customer Home Page</a></li>
-            <li><a href="BalEnqInput.php">Balance Enquiry</a></li>
-            <li><a href="CustomerFundTransfer.php">Fund Transfer</a></li>
-            <li><a href="PasswordInput.php">Change Password</a></li>
-            <li><a href="MiniStatementInput.php">Mini-Statement</a></li>
-            <li><a href="Logout.php">Log Out</a></li>
-           </ul>
-        </div>
-
     </head>
 
-    <body>
+    <div><?php include_once('Customer_sidebar.html') ?></div>
+
+    <body onLoad="document.fbal.txtaccno.select();">
         <br />
         <table border="0" width="70%" align="center" class="layout1">
-          <form name="fbal" method="post" action=" ">
+          <form name="fbal" method="post" action="BalEnquiry.php" onsubmit="return validateone();">
             <table align="center">
                 <td>
                 <tr>
@@ -39,7 +42,8 @@
         <!-- to display account number field-->
                 <tr>
                     <td>Account No</td>
-                    <td><select name="accountno" style="width: 150px">
+                    <td><select name="accountno" style="width: 150px"
+                        onKeyUp="validateaccount();" onBlur="validateaccount();">
                         <option>Select Account</option></select>
                         <label id="message25"></label></td>
                 </tr>

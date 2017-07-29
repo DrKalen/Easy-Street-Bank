@@ -5,7 +5,11 @@
     <head>
 
       <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="http://localhost:8888/easystreetbank/stylesheets/easy_street.css">  <div>
+      <link rel="stylesheet" type="text/css" href="http://localhost:8888/easystreetbank/stylesheets/easy_street.css">
+      <!--link to JavaScript validation file-->
+      <script language="JavaScript" src="http://localhost:8888/easystreetbank/javascript/test.js"></script>
+
+      <div>
             <h2 class="barone orange">Easy Street Bank</h2>
             <title>Password Change Page</title>
         </div>
@@ -26,7 +30,8 @@
     <body>
         <br />
         <table class="layout1" border="0" align="center">
-            <form name="addcust" action=" " method="post">
+            <form name="addcust" action="Password.php" method="post"
+                onsubmit="return validateChangePassword()">
                 <td colspan="2">
                     <table border="0" align="center">
                         <tr>
@@ -36,19 +41,19 @@
 
                         <tr>
                             <td>Old Password</td><td><input type=""password" name="oldpassword"
-                                  maxlength="25">
+                                  maxlength="25" onKeyUp="validateoldpassword();" onBlur="validateoldpassword();">
                                   <label id="message20"></label></td>
                         </tr>
 
                         <tr>
                             <td>New Password</td><td><input type="password" name="newpassword"
-                                  maxlength="25">
+                                  maxlength="25" onKeyUp="validatenewpassword();" onBlur="validatenewpassword();">
                                   <label id="message21"></label></td>
                         </tr>
 
                         <tr>
-                            <td>Confirm Password</td><td><input type="password" name"confirmpassword"
-                                  maxlength="25" >
+                            <td>Confirm Password</td><td><input type="password" name="confirmpassword"
+                                  maxlength="25" onKeyUp="validateconfirmpassword();" onBlur="validateconfirmpassword();">
                                   <label id="message22"></label></td>
                         </tr>
 

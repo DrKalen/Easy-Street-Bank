@@ -6,6 +6,9 @@
 
       <!--link to common cascading style sheets-->
       <link rel="stylesheet" type="text/css" href="http://localhost:8888/easystreetbank/stylesheets/easy_street.css">
+      <!--link to JavaScript validation file-->
+      <script language="JavaScript" src="http://localhost:8888/easystreetbank/javascript/test.js"></script>
+
         <div>
             <h2 class="barone orange">Easy Street Bank</h2>
         </div>
