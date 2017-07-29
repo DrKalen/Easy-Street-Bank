@@ -44,8 +44,6 @@
                             <input type="reset" name="res" value="Reset"></td>
                         </tr>
                     </table>
-        <!--link to home page-->
-                <p align="right"><a href="CustomerHomePage.php">Home</a></p>
                 </td>
             </form>
         </table>

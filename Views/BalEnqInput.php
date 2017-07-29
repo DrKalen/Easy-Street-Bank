@@ -53,9 +53,6 @@
                 </tr>
 
             </table>
-        <!--to link to home page-->
-
-            <p align="right"><a href="CustomerHomePage.php">Home</a></p>
 
             </td>
           </form>

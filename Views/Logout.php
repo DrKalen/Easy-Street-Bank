@@ -28,23 +28,19 @@
                 <td colspan="2">
                     <table border="0" align="center">
                          <tr>
-                            <td colspan="2"><p class="heading3">
-                                 To Log Out,</p> <p align="center">Please Click Here:</p></td>
+                            <td colspan="2"><p class="heading3" align="center">
+                                 To Log Out</p> <p align="center">Please Click Here:</p></td>
                         </tr>
-
-                            <!--to display submit and reset buttons-->
+                        <tr></tr><tr></tr>
 
                         <tr>
-                            <td></td>
-                            <td><input type="submit" name="logout" value="Log Out">
-                                <input type="reset" name="res" value="Reset"></td>
+                            <td align="center"><input type="submit" name="logout" value="Log Out">
+                                </td>
                         </tr>
                     </table>
                 </td>
             </form>
         </table>
-
-        <p align="right"><a href="CustomerHomePage.php">Home</a></p>
 
     </body>
 

@@ -67,8 +67,6 @@
 
         </table>
 
-        <p align="right"><a href="CustomerHomePage.php">Home</a></p>
-
     </body>
 
 </html>

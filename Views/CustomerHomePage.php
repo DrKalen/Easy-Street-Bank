@@ -28,7 +28,10 @@
                 <table align="center" width = %70%>
                      <tr>
                         <td class="heading3">
-                             Welcome to Your Home Page at Easy Street Bank!</td>
+                             Welcome to Your Home Page!</td>
+                    </tr>
+                    <tr>
+                        <td class="heading1" align="center">Just click a link at the left to get started.</td>
                     </tr>
 
                 </table>

@@ -24,13 +24,12 @@
     </head>
 
     <body>
-        <br /><br /><br /><br />
 
-        <table class="layout 1" border="0" align="center">
-            <form name="addcust" action =" " method ="Post" >
+        <table class="layout1" border="0" align="center">
+            <form name="addcust" action=" " method="post">
                 <td colspan="2">
                     <table border="0" align="center">
-                        <tr>
+                          <tr>
                             <td align="center" colspan="2"><p class="heading3">Fund
                                 Transfer</p></td>
                         </tr>
@@ -65,14 +64,13 @@
                             <td><input type="submit" name="AccSubmit" value="submit">
                                 <input type="reset" name="res" value="Reset"></td>
                         </tr>
+
                     </table>
-                </td>
+                    </td>
 
             </form>
 
         </table>
-
-        <p align="right"><a href="CustomerHomePage.php">Home</a></p>
 
     </body>
 
