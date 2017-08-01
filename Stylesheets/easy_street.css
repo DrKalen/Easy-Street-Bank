@@ -53,13 +53,6 @@ table{
     background-color: #FFFFFF;
 }
 
-table.layout {
-    width: 70%;
-    margin-top: -620px;
-    background-color: #FFFFFF;
-    text-wrap: none;
-}
-
 td {
     color: grey;
     font-size: 14pt;
@@ -221,14 +214,28 @@ button:hover {
     color: #666666;
 }
 
+table.layout {
+    width: 70%;
+    margin-top: -620px;
+    background-color: #FFFFFF;
+    text-wrap: none;
+}
+
 table.layoutx {
     width: 70%;
-    margin-top: -440px;
+    margin-top: -450px;
     background-color: #FFFFFF;
     text-wrap: none;
 }
 
 table.layouty {
+    //width: 70%;
+    margin-top: -470px;
+    background-color: #FFFFFF;
+    text-wrap: none;
+}
+
+table.layoutz {
     //width: 70%;
     margin-top: -470px;
     background-color: #FFFFFF;

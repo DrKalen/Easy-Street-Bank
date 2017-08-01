@@ -17,12 +17,12 @@
 
     </head>
 
-    <div><?php include_once('Customer_sidebar.html') ?></div>
+    <div><?php include_once('Manager_sidebar.html') ?></div>
 
     <body>
 
-
-        <table border="0" width="70%" align="center" class="layout1">
+    <br><br><br><br><br><br><br><br>
+        <table border="0" width="70%" align="center" class="layoutx">
 
             <form name="fbal" method="post" action="MiniStatement.php"
                 onsubmit="return validateone();">

@@ -1,4 +1,4 @@
-<?p[php//starting the session for logged in customer
+<?php//starting the session for logged in customer
 
 session_start();
 include_once 'connection.php';

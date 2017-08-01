@@ -17,11 +17,11 @@
 
     </head>
 
-    <div><?php include_once('Customer_sidebar.html') ?></div>
+    <div><?php include_once('Manager_sidebar.html') ?></div>
 
     <body>
-        <br />
-        <table class="layout1" border="0" align="center">
+        <br><br><br><br><br><br><br>
+        <table class="layoutx" border="0" align="center">
             <form name="addcust" action="Password.php" method="post"
                 onsubmit="return validateChangePassword()">
                 <td colspan="2">

@@ -1,11 +1,3 @@
-<?php
-
-//starting the session for logged in customer
-
-session_start();
-$_SESSION['formid'] = md5(rand(0, 10000000));
-?>
-
 <html>
 
     <!-- Fund Transfer page -->
@@ -24,11 +16,12 @@ $_SESSION['formid'] = md5(rand(0, 10000000));
 
     </head>
 
-    <div><?php include_once('Customer_sidebar.html') ?></div>
+    <div><?php include_once('Manager_sidebar.html') ?></div>
 
-    <body>
+    <body onLoad="document.fbal.txtaccno.select();"><br>
 
-        <table class="layout1" border="0" align="center">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <table class="layout" border="0" align="center">
             <form name="addcust" method="post" action="customerfund.php"
                 onsubmit="return validateFundTransfer();">
                 <td colspan="2">
