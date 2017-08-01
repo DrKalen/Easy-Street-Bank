@@ -1,12 +1,3 @@
-<?php
-
-//starting the session for logged in customer
-
-session_start();
-if (isset($_SESSION['customer'])) {
-    $customer = $_SESSION'customer'];
-}
-?>
 
 <html>
 

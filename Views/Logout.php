@@ -1,3 +1,12 @@
+<?php//starting the session for logged in customer
+
+session_start();
+
+//destroying the session for logged in customer
+
+session_destroy();
+?>
+
 <html>
 
 <!--logout page-->
@@ -17,22 +26,13 @@
     <div><?php include_once('Customer_sidebar.html') ?></div>
 
     <body onLoad="document.fbal.txtaccno.select();">
-        <table class="layout1" border="0" align="center">
+        <table border="0" width="70%" align="center" class="layout1">
             <form name="fbal" method="post" action = " ">
-                <td colspan="2">
-                    <table border="0" align="center">
-                         <tr>
-                            <td colspan="2"><p class="heading3" align="center">
-                                 To Log Out</p> <p align="center">Please Click Here:</p></td>
-                        </tr>
-                        <tr></tr><tr></tr>
 
                         <tr>
-                            <td align="center"><input type="submit" name="logout" value="Log Out">
-                                </td>
-                        </tr>
-                    </table>
-                </td>
+                            <?php echo "<script type='text/javascript'>alert('You have successfully logged out!'); window.location.href='../index.p[hp'; </script>";
+                            ?>
+
             </form>
         </table>
 
