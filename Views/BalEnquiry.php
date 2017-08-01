@@ -7,12 +7,12 @@ session_start();
 include_once 'connection.php';
 
 //if customer is registered & logged in successfully,
-if (isset($$_SESSION['customer'])) {
+if (isset($_SESSION['customer'])) {
     //@ $cid = customer ID for logged in customer
     $customer = $_SESSION['customer'];
 }
 
-//get the selected account no. && $acc_no in BalEnqInput.php
+//get the selected account no. in BalEnqInput.php @ $acc_no
 
 $acc_no = $_POST['accountno'];
 
@@ -65,12 +65,12 @@ if (mysql_num_rows($rc)) {
                                 <!--Display the account number whose balance was requested-->
                                     <tr>
                                         <td>Account No</td>
-                                        <td><?php eho $row['ACCOUNT NO']; ?></td>
+                                        <td><?php echo $row['ACCOUNT NO']; ?></td>
                                     </tr>
 
                                 <!--display the type of account-->
                                     <tr>
-                                        <td> Type of Account>/td>
+                                        <td>Type of Account>/td>
                                         <td><?php echo $row['ACCOUNT_TYPE'];
                                     </tr>
 

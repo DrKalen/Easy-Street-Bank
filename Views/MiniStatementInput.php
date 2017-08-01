@@ -46,3 +46,4 @@
     </body>
 </html>
 
+<!--In above Form :action="MiniStatement.php". This means on submit form code in MiniStatement.php will be executed.-->

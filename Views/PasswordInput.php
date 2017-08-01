@@ -66,3 +66,5 @@
     </body>
 
 </html>
+
+<!--In the above form: action="Password.php". This means on submit form the code in Password.php will be executed.-->
