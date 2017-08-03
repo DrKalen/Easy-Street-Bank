@@ -32,10 +32,11 @@
 
 <body onLoad="document.fbal.txtaccno.select();">
 
+    <div style = "margin-top: -565px" align = "center">
+        <img src="../images/sInAndOut.gif">
+    </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-<table border="0" width="70%" align="center" class="layout">
+    <table class="layout1" border="0" align="center" style="margin-top: 25px">
 
 
 

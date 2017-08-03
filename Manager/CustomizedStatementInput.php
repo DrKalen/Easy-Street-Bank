@@ -21,12 +21,14 @@
 </head>
 
 
-
 <body onLoad="document.fbal.txtaccno.select();">
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div style = "margin-top: -550px" align = "center">
+        <img src="../images/sFireworks.gif">
+    </div>
 
-    <table border="0" width="70%" align="center" class="layout">
+    <table class="layout1" border="0" align="center" style="margin-top: 25px">
+
 
         <form name="fbal" method="post" action="CustomisedStatement.php" onSubmit="return validateone();">
 

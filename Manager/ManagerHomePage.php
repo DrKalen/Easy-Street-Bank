@@ -15,7 +15,13 @@
     </head>
 
     <body>
-        <table class="layout1" border="0" align="center">
+
+    <div style = "margin-top: -550px" align = "center">
+        <img src="../images/sFireworks.gif">
+    </div>
+
+    <table class="layout1" border="0" align="center" style="margin-top: 25px">
+
             <td>
                 <table align="center" width = %70%>
                      <tr>

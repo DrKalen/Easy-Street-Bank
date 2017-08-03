@@ -22,7 +22,9 @@
 
 <body>
 
-<table class="layoutx" border="0" align="center">
+    <div style = "margin-top: -565px" align = "center">
+        <img src="../images/sFox.gif">
+    </div>
 
 <form name="addcust" action="insrtCustomer.php" method="post" onSubmit="return validatenewCust();">
 
@@ -33,7 +35,7 @@
 
 
 <tr>
-    <td align="center" colspan="2"><p class="heading3">Add New Customer</p></td>
+    <td align="center" colspan="2"><p class="heading3" style = "margin-top: 25px">Add New Customer</p></td>
 
 </tr>
 <tr>

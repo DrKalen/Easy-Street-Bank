@@ -18,10 +18,14 @@
 
     <div><?php include_once('Manager_sidebar.html') ?></div>
 
-    <body onLoad="document.fbal.txtaccno.select();"><br>
+    <body onLoad="document.fbal.txtaccno.select();">
 
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <table class="layout" border="0" align="center">
+    <div style = "margin-top: -565px" align = "center">
+        <img src="../images/Slinky.gif">
+    </div>
+
+    <table class="layout1" border="0" align="center" style="margin-top: 25px">
+
             <form name="addcust" method="post" action="customerfund.php"
                 onsubmit="return validateFundTransfer();">
                 <td colspan="2">

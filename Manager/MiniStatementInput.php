@@ -21,8 +21,12 @@
 
     <body>
 
-    <br><br><br><br><br><br><br><br>
-        <table border="0" width="70%" align="center" class="layoutx">
+    <div style = "margin-top: -550px" align = "center">
+        <img src="../images/sEarthAndVenus.gif">
+    </div>
+
+    <table class="layout1" border="0" align="center" style="margin-top: 25px">
+
 
             <form name="fbal" method="post" action="MiniStatement.php"
                 onsubmit="return validateone();">

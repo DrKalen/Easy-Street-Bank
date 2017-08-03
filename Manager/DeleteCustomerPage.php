@@ -30,10 +30,11 @@
 
 <body onLoad="document.fbal.txtaccno.select();">
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div style = "margin-top: -565px" align = "center">
+        <img src="../images/sFox.gif">
+    </div>
 
-
-<table border="0" width="70%" align="center" class="layout">
+    <table class="layout1" border="0" align="center" style="margin-top: 25px">
 
 
 

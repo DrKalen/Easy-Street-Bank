@@ -19,8 +19,12 @@
     <div><?php include_once('Manager_sidebar.html') ?></div>
 
 <body>
-    <br><br><br><br><br><br>
-    <table align="center" width="90%" class="layoutx">
+
+    <div style = "margin-top: -565px" align = "center">
+        <img src="../images/sInAndOut.gif">
+    </div>
+
+    <table class="layout1" border="0" align="center" style="margin-top: 25px">
     <form name="form1" method="post" action="insertAccount.php"> <!--creating form for adding new account -->
         <td>
         <table align=center cellspacing="10"> <!--creating table -->

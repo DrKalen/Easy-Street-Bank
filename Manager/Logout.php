@@ -1,10 +1,10 @@
 <?php//starting the session for logged in customer
 
-session_start();
+//session_start();
 
 //destroying the session for logged in customer
 
-session_destroy();
+//session_destroy();
 ?>
 
 <html>
@@ -20,6 +20,7 @@ session_destroy();
       <script language="JavaScript" src="../javascript/test.js"></script>
 
         <div><h2 class="barone orange">Easy Street Bank</h2></div>
+
         <title> Easy Street Bank Logout Output Page </title>
 
     </head>
@@ -31,7 +32,7 @@ session_destroy();
             <form name="fbal" method="post" action = " ">
 
                         <tr>
-                            <?php echo "<script type='text/javascript'>alert('You have successfully logged out!'); window.location.href='../index.p[hp'; </script>";
+                            <?php echo "<script type='text/javascript'>alert('You have successfully logged out!'); window.location.href='../index.php'; </script>";
                             ?>
 
             </form>

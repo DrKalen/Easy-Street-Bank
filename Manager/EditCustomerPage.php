@@ -19,11 +19,13 @@
 
    <div><?php include_once('Manager_sidebar.html') ?></div>
 
-<body onLoad="document.fbal.txtaccno.select();"><br>
+<body onLoad="document.fbal.txtaccno.select();">
 
+    <div style = "margin-top: -565px" align = "center">
+        <img src="../images/sFox.gif">
+    </div>
 
-    <br><br><br><br><br><br><br><br>
-    <table border="0" align="center" class="layoutx">
+    <table class="layout1" border="0" align="center" style="margin-top: 25px">
         <form name="fbal" method="post" action="editCustomerPage.php" onsubmit="return validateone();">
             <td>    <table border="0" align="center">
                     <tr>
