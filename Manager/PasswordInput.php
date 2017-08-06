@@ -22,7 +22,7 @@
     <body>
 
     <div style = "margin-top: -565px" align = "center">
-        <img src="../images/sInAndOut.gif">
+        <img src="../images/sEarthAndVenus.gif">
     </div>
 
     <table class="layout1" border="0" align="center" style="margin-top: 25px">

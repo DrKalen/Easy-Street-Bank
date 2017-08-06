@@ -21,7 +21,7 @@
 <body onLoad="document.fbal.txtaccno.select();">
 
     <div style = "margin-top: -565px" align = "center">
-        <img src="../images/Slinky.gif">
+        <img src="../images/sEarthAndVenus.gif">
     </div>
 
     <table class="layout1" border="0" align="center" style="margin-top: 25px">

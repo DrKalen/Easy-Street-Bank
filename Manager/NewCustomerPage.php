@@ -23,7 +23,7 @@
 <body>
 
     <div style = "margin-top: -565px" align = "center">
-        <img src="../images/sFox.gif">
+        <img src="../images/sEarthAndVenus.gif">
     </div>
 
 <form name="addcust" action="insrtCustomer.php" method="post" onSubmit="return validatenewCust();">
