@@ -47,3 +47,6 @@ New Customer:
 
 Withdrawal:
 ![SCREENSHOT](../master/images/EasyStreetWithdrawal.png)
+
+Log Out:
+![SCREENSHOT](../master/images/EasyStreetLogout.png)
