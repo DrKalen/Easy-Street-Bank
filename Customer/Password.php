@@ -1,7 +1,7 @@
 <?php//starting the session for logged in customer
 
 session_start();
-include_once 'connection.php';
+include_once '/DB/connection.php';
 if (isset($_SESSION['customer'])) {
         $customer = $_SESSION['customer'];
 }

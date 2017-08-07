@@ -4,7 +4,7 @@ session_start();
 
 //include database connection file so required data
 //can be fetched from respective database table
-include_once 'connection.php';
+include_once '/DB/connection.php';
 
 //if customer is registered & logged in successfully,
 if (isset($_SESSION['customer'])) {

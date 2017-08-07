@@ -4,7 +4,7 @@
 
 session_start();
 
-include_once 'connection.php';
+include_once '/DB/connection.php';
 if (isset($_SESSION['customer'])) {
     $customer = $_SESSION['customer'];
 }
@@ -17,10 +17,10 @@ if (isset($_SESSION['customer'])) {
     <head>
 
       <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="../stylesheets/easy_street.css">
+      <link rel="stylesheet" type="text/css" href="/stylesheets/easy_street.css">
 
       <!--link to JavaScript validation file-->
-      <script language="JavaScript" src="../javascript/test.js"></script>
+      <script language="JavaScript" src="/javascript/test.js"></script>
 
         <div>
             <h2 class="barone orange">Easy Street Bank</h2>

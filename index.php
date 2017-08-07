@@ -1,6 +1,6 @@
 <?php
 session_start(); //to start the session after successful login
-include_once 'connection.php'; //to include database connection
+// include_once '/DB/connection.php'; //to include database connection
 
 //to check if uid is set
 if (isset($_POST['uid'])) {
@@ -63,10 +63,10 @@ if (isset($_POST['uid'])) {
     <head>
 
       <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="../EasyStreetBank/Stylesheets/easy_street.css">
+      <link rel="stylesheet" type="text/css" href="/Stylesheets/easy_street.css">
 
       <!--link to JavaScript validation file-->
-      <script language="JavaScript" src="../EasyStreetBank/JavaScript/test.js"></script>
+      <script language="JavaScript" src="/JavaScript/test.js"></script>
 
         <div>
             <h2 class="barone orange" >Easy Street Bank</h2>
@@ -78,14 +78,14 @@ if (isset($_POST['uid'])) {
 
 <div>
    <ul class="menusubnav">
-    <li><a href="../EasyStreetBank/Customer/CustomerHomePage.php">Customer Home Page</a></li>
-    <li><a href="../EasyStreetBank/Manager/ManagerHomePage.php">Manager Home Page</a></li>
+    <li><a href="/Customer/CustomerHomePage.php">Customer Home Page</a></li>
+    <li><a href="/Manager/ManagerHomePage.php">Manager Home Page</a></li>
    </ul>
 </div>
     <body>
 
     <div style = "margin-top: 10px" align = "center">
-    <img src="../EasyStreetBank/images/1.png">
+    <img src="/images/1.png">
     </div>
 
 

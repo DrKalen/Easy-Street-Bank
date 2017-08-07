@@ -5,7 +5,7 @@
     <head>
 
       <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="../stylesheets/easy_street.css">
+      <link rel="stylesheet" type="text/css" href="/stylesheets/easy_street.css">
 
         <div><h2 class="barone orange">Easy Street Bank</h2></div>
         <title> Easy Street Bank Customer Home Page </title>
@@ -17,7 +17,7 @@
     <body>
 
     <div style = "margin-top: -550px" align = "center">
-        <img src="../images/sFireworks.gif">
+        <img src="/images/sFireworks.gif">
     </div>
 
     <table class="layout1" border="0" align="center" style="margin-top: 25px">

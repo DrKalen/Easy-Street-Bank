@@ -10,10 +10,10 @@
 <head>
 
       <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="../stylesheets/easy_street.css">
+      <link rel="stylesheet" type="text/css" href="/stylesheets/easy_street.css">
 
       <!--link to JavaScript validation file-->
-      <script language="JavaScript" src="../javascript/test.js"></script>
+      <script language="JavaScript" src="/javascript/test.js"></script>
 
         <div>
             <h2 class="barone orange" >Easy Street Bank</h2>
@@ -31,7 +31,7 @@
 <body onLoad="document.fbal.txtaccno.select();">
 
     <div style = "margin-top: -565px" align = "center">
-        <img src="../images/sFox.gif">
+        <img src="/images/sFox.gif">
     </div>
 
     <table class="layout1" border="0" align="center" style="margin-top: 25px">
