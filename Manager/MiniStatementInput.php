@@ -5,7 +5,7 @@
     <head>
 
       <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="/stylesheets/easy_street.css">
+      <link rel="stylesheet" type="text/css" href="easy_street.css">
 
       <!--link to JavaScript validation file-->
       <script language="JavaScript" src="/javascript/test.js"></script>
@@ -26,7 +26,6 @@
     </div>
 
     <table class="layout1" border="0" align="center" style="margin-top: 25px">
-
 
             <form name="fbal" method="post" action="MiniStatement.php"
                 onsubmit="return validateone();">

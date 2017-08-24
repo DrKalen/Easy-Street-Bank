@@ -1,11 +1,11 @@
 <html>
 
-  <! -- Change Password page -->
+  <!-- Change Password page -->
 
     <head>
 
       <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="/stylesheets/easy_street.css">
+      <link rel="stylesheet" type="text/css" href="easy_street.css">
 
       <!--link to JavaScript validation file-->
       <script language="JavaScript" src="/javascript/test.js"></script>
@@ -21,11 +21,11 @@
 
     <body>
 
-    <div style = "margin-top: -565px" align = "center">
-        <img src="/images/sEarthAndVenus.gif">
-    </div>
+      <div style = "margin-top: -565px" align = "center">
+          <img src="/images/sEarthAndVenus.gif">
+      </div>
 
-    <table class="layout1" border="0" align="center" style="margin-top: 25px">
+      <table class="layout1" border="0" align="center" style="margin-top: 25px">
             <form name="addcust" action="Password.php" method="post"
                 onsubmit="return validateChangePassword()">
                 <td colspan="2">
@@ -53,7 +53,7 @@
                                   <label id="message22"></label></td>
                         </tr>
 
-            <!--to display submit and reset buttons-->
+                        <!--to display submit and reset buttons-->
 
                         <tr>
                             <td></td>
@@ -62,7 +62,8 @@
                         </tr>
 
                     </table>
-                    </td>
+
+                 </td>
 
             </form>
 

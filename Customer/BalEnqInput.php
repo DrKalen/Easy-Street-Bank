@@ -14,7 +14,7 @@ if (isset($_SESSION['customer'])) {
 <head>
 
       <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="/stylesheets/easy_street.css">
+      <link rel="stylesheet" type="text/css" href="easy_street.css">
 
       <!--link to JavaScript validation file-->
       <script language="JavaScript" src="/javascript/test.js"></script>
@@ -25,7 +25,7 @@ if (isset($_SESSION['customer'])) {
 
         <title>Easy Street Bank Balance Enquiry Page </title>
 
-    <div><?php include_once('customer_sidebar.html') ?></div>
+    <div><?php include_once('Customer_sidebar.html') ?></div>
 
 </head>
 

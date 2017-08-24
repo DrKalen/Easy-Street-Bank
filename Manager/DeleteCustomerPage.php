@@ -1,132 +1,79 @@
 
 <html>
 
-
-
 <!--delete customer page-->
 
+    <head>
+
+          <!--link to common cascading style sheets-->
+          <link rel="stylesheet" type="text/css" href="easy_street.css">
+
+          <!--link to JavaScript validation file-->
+          <script language="JavaScript" src="/javascript/test.js"></script>
+
+            <div>
+                <h2 class="barone orange" >Easy Street Bank</h2>
+            </div>
+
+            <title> Easy Street Bank Delete Customer Page </title>
 
 
-<head>
 
-      <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="/stylesheets/easy_street.css">
+    </head>
 
-      <!--link to JavaScript validation file-->
-      <script language="JavaScript" src="/javascript/test.js"></script>
+        <div><?php include_once('Manager_sidebar.html') ?></div>
 
-        <div>
-            <h2 class="barone orange" >Easy Street Bank</h2>
+
+    <body onLoad="document.fbal.txtaccno.select();">
+
+        <div style = "margin-top: -565px" align = "center">
+            <img src="/images/sFox.gif">
         </div>
 
-        <title> Easy Street Bank Delete Customer Page </title>
+        <table class="layout1" border="0" align="center" style="margin-top: 25px">
 
+            <form name="fbal" method="post" action="deleteCustomer.php" onSubmit="return(validateone() && ConformcustDelete());">
 
+                <td>
 
-</head>
+                    <table border="0" align="center">
 
-    <div><?php include_once('Manager_sidebar.html') ?></div>
+                        <tr>
 
+                            <td colspan="2"><p class="heading3" align=center>Delete Customer</p></td>
 
-<body onLoad="document.fbal.txtaccno.select();">
+                        </tr>
 
-    <div style = "margin-top: -565px" align = "center">
-        <img src="/images/sFox.gif">
-    </div>
+                        <!--to display account number field-->
 
-    <table class="layout1" border="0" align="center" style="margin-top: 25px">
+                        <tr>
 
+                            <td>Customer ID</td>
 
+                            <td><input type="text"  name="cusid" maxlength="10" onKeyUp="validatecustomerid();" onBlur="validatecustomerid();"><label id="message14"></label></td>
 
-<form name="fbal" method="post" action="deleteCustomer.php" onSubmit="return(validateone() && ConformcustDelete());">
+                        </tr>
 
+                        <!--to display submit and reset buttons-->
 
+                        <tr>
 
-<td>
+                            <td></td>
 
-    <table border="0" align="center">
+                            <td><input type="submit" name="AccSubmit" value="Submit" onClick="return validatebal();">
 
+                                <input type="reset" name="res" value="Reset"></td>
 
+                        </tr>
 
-<tr>
+                    </table>
 
-    <td colspan="2"><p class="heading3" align=center>Delete Customer</p></td>
+                </td>
 
-</tr>
+            </form>
 
+        </table>
 
-
-
-
-<!--comments: to display account number field-->
-
-
-
-<tr>
-
-    <td>Customer ID</td>
-
-    <td><input type="text"  name="cusid" maxlength="10" onKeyUp="validatecustomerid();" onBlur="validatecustomerid();"><label id="message14"></label></td>
-
-</tr>
-
-
-
-<tr>
-
-</tr>
-
-
-
-<tr>
-
-</tr>
-
-
-
-<tr>
-
-</tr>
-
-
-
-<tr>
-
-</tr>
-
-
-
-
-
-<!--comments: to display submit and reset buttons-->
-
-
-
-<tr>
-
-    <td></td>
-
-    <td><input type="submit" name="AccSubmit" value="Submit" onClick="return validatebal();">
-
-        <input type="reset" name="res" value="Reset"></td>
-
-</tr>
-
-
-
-</form>
-
-
-
-</table>
-
-</td>
-
-</table>
-
-
-</body>
-
-
+    </body>
 
 </html>

@@ -14,7 +14,7 @@
     <head>
 
       <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="/stylesheets/easy_street.css">
+      <link rel="stylesheet" type="text/css" href="easy_street.css">
 
       <!--link to JavaScript validation file-->
       <script language="JavaScript" src="/javascript/test.js"></script>
@@ -34,8 +34,9 @@
                         <tr>
                             <?php echo "<script type='text/javascript'>alert('You have successfully logged out!'); window.location.href='/index.php'; </script>";
                             ?>
-
+                        </tr>
             </form>
+
         </table>
 
     </body>

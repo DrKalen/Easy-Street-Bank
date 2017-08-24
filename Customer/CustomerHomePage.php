@@ -6,7 +6,7 @@
     <head>
 
       <!--link to common cascading style sheets-->
-      <link rel="stylesheet" type="text/css" href="/stylesheets/easy_street.css">
+      <link rel="stylesheet" type="text/css" href="easy_street.css">
 
         <div><h2 class="barone orange">Easy Street Bank</h2></div>
         <title> Easy Street Bank Customer Home Page </title>

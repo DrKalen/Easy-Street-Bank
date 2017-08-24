@@ -76,52 +76,55 @@ if (isset($_POST['uid'])) {
 
     </head>
 
-<div>
-   <ul class="menusubnav">
-    <li><a href="/Customer/CustomerHomePage.php">Customer Home Page</a></li>
-    <li><a href="/Manager/ManagerHomePage.php">Manager Home Page</a></li>
-   </ul>
-</div>
-    <body>
-
-    <div style = "margin-top: 10px" align = "center">
-    <img src="/images/1.png">
+    <div>
+       <ul class="menusubnav">
+        <li><a href="/Customer/CustomerHomePage.php">Customer Home Page</a></li>
+        <li><a href="/Manager/ManagerHomePage.php">Manager Home Page</a></li>
+       </ul>
     </div>
 
+    <body>
 
-    <div class="heading3" align="center" style = "margin-top: 50px">Welcome to the Online Banking Page of Easy Street Bank*</div>
+        <div style = "margin-top: 10px" align = "center">
+        <img src="/images/1.png">
+        </div>
 
-    <form name="frmLogin" method="POST" action="index.php">
-        <table border="0" width="50%" align = "center" style="margin-top: 25px">
 
-            <!--Display USER ID Label and its text box-->
-            <tr>
-                <td align="right">UserID</td>
-                <td><input type="text" name="uid" maxlength="10"
-                    onKeyUp="validateuserid();" onBlur="validateuserid();">
-                    <label id="message23"</label>
-                </td>
-            </tr>
+        <div class="heading3" align="center" style = "margin-top: 50px">Welcome to the Online Banking Page of Easy Street Bank*</div>
 
-            <!--Display Password and its text box-->
-            <tr>
-                <td align="right">Password</td>
-                <td> <input type="password" name="password"
-                    onKeyUp="validatepassword();" onBlur="validatepassword();">
-                    <label id="message18"</label>
-                </td>
-            </tr>
+        <form name="frmLogin" method="POST" action="index.php">
+            <table border="0" width="50%" align = "center" style="margin-top: 25px">
 
-            <tr>
-                <td></td>
-                <td><input type = "submit" name="btnLogin" value ="Log In">
-                    <input type ="reset" name ="btnReset" value="Reset">
-                </td>
-            </tr>
+                <!--Display USER ID Label and its text box-->
+                <tr>
+                    <td align="right">UserID</td>
+                    <td><input type="text" name="uid" maxlength="10"
+                        onKeyUp="validateuserid();" onBlur="validateuserid();">
+                        <label id="message23"</label>
+                    </td>
+                </tr>
 
-        </table>
-    </form>
-    <div class="heading1" align="center" style = "margin-top: 50px">*(The Database is not currently connected. To explore the Customer and Manager pages, please click one of the links at the upper left.)<br>
-    <i>Clicking "Log Out" will bring you back to this page.</i></div>
+                <!--Display Password and its text box-->
+                <tr>
+                    <td align="right">Password</td>
+                    <td> <input type="password" name="password"
+                        onKeyUp="validatepassword();" onBlur="validatepassword();">
+                        <label id="message18"</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type = "submit" name="btnLogin" value ="Log In">
+                        <input type ="reset" name ="btnReset" value="Reset">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+        <div class="heading1" align="center" style = "margin-top: 50px">*(The Database is not currently connected. To explore the Customer and Manager pages, please click one of the links at the upper left.)<br>
+        <i>Clicking "Log Out" will bring you back to this page.</i></div>
     </body>
+
 </html>
